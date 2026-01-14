@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>Yago102 マイクラサーバー</title>
+    <title>クラス専用マイクラサーバー</title>
     <style>
         body { margin: 0; padding: 0; overflow: hidden; background-color: #333; }
         iframe { width: 100vw; height: 100vh; border: none; }
@@ -10,8 +10,17 @@
 </head>
 <body>
     <iframe 
-        src="https://prismarinejs.github.io/prismarine-web-client/?proxy=wss://pwc-proxy.mwalon.com&ip=Yago102tanisi.aternos.me&port=63683&version=1.21.1" 
+        id="mc-frame"
+        src="https://prismarinejs.github.io/prismarine-web-client/?ip=★サーバーのIP★&port=★ポート番号★&version=★バージョン★" 
         allow="autoplay; fullscreen; keyboard; pointer-lock"
     ></iframe>
+
+    <script>
+        // 設定例：
+        // IPが school.aternos.me
+        // ポートが 12345
+        // バージョンが 1.16.5 の場合
+        // src="https://prismarinejs.github.io/prismarine-web-client/?ip=school.aternos.me&port=12345&version=1.16.5"
+    </script>
 </body>
 </html>
